@@ -12,8 +12,7 @@ public class Factorial {
             System.out.println("ERROR: el número debe ser mayor o igual que 0.");
         } else {
             System.out.println("Has introducido el número: " + num);
-            long resultado = factorialBucle(num);
-            System.out.println("RESULTADO - El factorial de " + num + " es: " + resultado);
+            System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
         }
 
         sc.close();
